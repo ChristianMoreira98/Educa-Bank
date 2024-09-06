@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header{
+    padding: 80px;
+    background-color: #452e3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    color: #ff3d5a;
+}
+
+
+
+.flex-container {
+    display: flex;
+    /*Tornando os itens flex*/
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #ff3d5a;
+    /* Cor do fundo da sessão*/
+    gap: 20px;
+    /*Propriedade utilizada para dar o respiro/espaço entre os elementos*/
+    padding: 200px;
+    /*Preechimento da sessão*/
+}
+
+
+.flex-container>div {
+    background-color: #ffb969;
+    /*Cor de fundo da caixa*/
+    width: 100px;
+    /*Tamanho da caixa*/
+    text-align: center;
+    /*Alinhando texto ao centro*/
+    line-height: 75px;
+    font-size: 30px;
+    /*Tamanho do texto*/
+}
+
+section {
+    padding: 200px;
+    /*Tamanho da sessão*/
+    display: flex;
+    /*Tornando flex - deixando itens na vertical*/
+    justify-content: center;
+    /*Justificando o conteúdo*/
+    align-items: center;
+    /*Centralizando itens*/
+    background-color:aquamarine ;
+    /* Cor do fundo da sessão*/
+    gap: 30px;
+    /*Propriedade utilizada para dar o respiro/espaço entre os elementos*/
+}
+
+section div {
+    box-shadow: 10px 20px 10px black;
+    /*Sombra externa da caixa primeiro valor eixo horizxontal, segundo valor eixo vertical, ultimo valor exposição da sombra*/
+    width: 200px;
+    /*Largura da caixa*/
+    height: 300px;
+    /*Altura da caixa*/                                      
+    display: flex;
+    /*Tornando flex - deixando itens na vertical*/
+    align-items: center;
+    /*Alinhando itens ao centro*/
+
+}
+
+section div:hover{
+    /*transform: translate(20px, 0px); Primeiro eixo X (horizontal), depois valor do eixo Y (Vertical)*/
+
+   /* transform: rotate(5deg); Aqui trabalhamos com a rotação da caixa*/
+
+   /*transform: scale(1.1, 1.1); Trabalha com a scala de movimentação dos eixos X e Y*/
+
+   /*transform: skew(10deg, -5deg); */
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+footer{
+    padding: 80px;
+    background-color: #3b8c88;
+}
+
+
+
+
+ /* 1. transform: translate(20px, 0px); Primeiro eixo X (horizontal), depois valor do eixo Y (Vertical)*/
+
+   /*2.  transform: rotate(5deg); Aqui trabalhamos com a rotação da caixa*/
+
+   /* 3. transform: scale(1.1, 1.1); Trabalha com a scala de movimentação dos eixos X e Y*/
+
+   /* 4. transform: skew(10deg, -5deg); Descrição: Inclina um elemento ao longo dos eixos X e Y.*/

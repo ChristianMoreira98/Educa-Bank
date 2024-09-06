@@ -1,0 +1,480 @@
+
+* {
+    /* "*" utilizamos para definir elementos fixos na página*/
+    margin: 0;
+    /*Tiramos a margem*/
+    padding: 0;
+    /*Tiramos o respiro da página*/
+    list-style: none;
+    /*Tirando o sub-linhado das listas*/
+    text-decoration: none;
+    /*tirando a cor roxa das listas*/
+
+}
+
+header {
+    /*chamando nosso cabeçalho para estilização*/
+    padding: 70px;
+    /*tamanho do nosso cabeçalho*/
+    background-color: rgb(78, 135, 168);
+    /*Cor de fundo do cabeçalho*/
+    display: flex;
+    /*tornando nosso cabeçalho flex (deixando os itens na vertical)*/
+    justify-content: end;
+    /*justificação do conteúdo*/
+}
+
+header nav ol {
+    /*Chamando o elento pai da lista para estilização*/
+    display: flex;
+    /*tornando nossa lista flex (deixando os itens na vertical)*/
+}
+
+header nav ol a li {
+    /*chamando o conteúdo da nossa lista para estilização (texto)*/
+    margin-right: 20px;
+    /*dando um respiro na direita*/
+    color: #fff;
+    /*Dando uma cor para o texto*/
+    font-size: 13px;
+    /*Tamanho do texto*/
+}
+
+header nav ol li:hover {
+    /*Hover - utilizamos para que algo mude ao passsarmos o mouse*/
+    color: rgb(81, 81, 228);
+    /*Cor nova do texto ao passar o mouse*/
+    transition: 0.8s;
+    /*Tempo de transição da ação*/
+}
+
+
+.sessao1 {
+    /*Chamando a primeira sessão para estilização*/
+    padding: 200px;
+    /*Espaço da segunda sessão*/
+    background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
+    /*Colocando um Degradê no fundo da sessão*/
+    font-size: 30px;
+    /*Tamanho do texto*/
+}
+
+
+.sessao1 h1 {
+    /*Chamando nosso primeiro título para estilização*/
+    font-size: 45px;
+    /*Tamanho do texto*/
+    color: rgba(0, 0, 0, 0.712);
+    /*Cor do título*/
+    margin-bottom: 5px;
+    /*Dando um respiro na parte de baixo do título*/
+}
+
+.sessao1 p {
+    /*Chamando o parágrafo para estilização*/
+    font-size: 30px;
+    /*Tamanho do texto*/
+    display: flex;
+    /*Tornando flex (alinhando itens na vertical*/
+    color: black;
+    /*Cor do parágrafo*/
+
+
+}
+
+
+.sessao1 a button {
+    /*Chamando a caixa e o  botão para estilização*/
+    width: 250px;
+    /*Largura do botão*/
+    padding: 20px;
+    /*Respiro*/
+    border-radius: 50px;
+    /*Arredondando o botão*/
+    height: 25px;
+    /*Altura do botão*/
+    margin-top: 30px;
+    /*Dando um respiro no botão*/
+    margin: 10px;
+    /*Dando um respiro em todos os lados */
+    border-color: rgb(19, 153, 108);
+    /*Cor da borda */
+    align-items: center;
+    /*Alinhando os itens ao centro*/
+    margin-right: 10px;
+    /*Dando um respiro na direita*/
+}
+
+
+
+.sessao1 a button:hover {
+    /*Hover - utilizamos para que algo mude ao passsarmos o mouse*/
+    cursor: pointer;
+    /*Mudar o cursor ao passar o mouse*/
+    background-color: rgb(19, 153, 108);
+    /*Dando uma cor de fundo*/
+    transition: 0.8s;
+    /*Tempo de transição da ação*/
+    border-color: white;
+    /*Cor da borda */
+
+}
+
+.sessao1 button {
+    /*Chamando o botão (conteúdo) para estilização*/
+    display: flex;
+    /*tornando flex (deixando os itens na vertical)*/
+    justify-content: center;
+    /*Justificação do conteúdo*/
+    align-items: center;
+    /*Alinhando os itens ao centro*/
+    color: rgb(19, 153, 108);
+    /*Cor do texto */
+    font-size: 12px;
+    /*Tamanho do texto*/
+}
+
+.sessao1 button:hover {
+    /*Hover - utilizamos para que algo mude ao passsarmos o mouse*/
+    color: #fff;
+    /*Nova cor do botão ao passar o mouse*/
+}
+
+
+
+.sessao2 {
+    /*Chamando a sessão 2 para estilização*/
+    padding: 100px;
+    /*Tamanho da segunda sessão*/
+    display: flex;
+    /*Tornando a sessão flex (Alinhando os itens na vertical*/
+    align-items: center;
+    /*Alinhando os itens ao centro*/
+    background-color: rgb(226, 233, 233);
+    /*Dando uma cor de fundo*/
+    justify-content: space-around;
+    /*justificação do conteúdo*/
+}
+
+
+
+.sessao2 div p {
+    /*Chamando o parágrafo para a estilização*/
+    font-size: 35px;
+    /*Tamanho do texto*/
+    color: black;
+    /*Cor do parágrafo*/
+}
+
+
+.sessao2 button {
+    /*Chamando nosso botão para estilização*/
+    font-size: 12px;
+    /*Tamanho do texto*/
+}
+
+
+.sessao2 a button {
+    /*Estilizando a caixa do botão*/
+    border-radius: 51px;
+    /*Arredondando o botão*/
+    justify-content: center;
+    /*justificação do conteúdo*/
+    padding: 15px;
+    width: 270px;
+    /*Largura do botão*/
+    background-color: #fff;
+    /*Dando uma cor de fundo*/
+    margin-top: 30px;
+    border-color: rgb(19, 153, 108);
+    /*Cor da borda */
+    color: rgb(19, 153, 108);
+    align-items: center;
+    /*Alinhando os itens ao centro*/
+    margin-left: 20px;
+    /*Dando um respiro na esquerda do botão*/
+
+}
+
+
+.sessao2 a button:hover {
+    /*Hover - utilizamos para que algo mude ao passsarmos o mouse*/
+    background-color: rgb(19, 153, 108);
+    /*Dando uma cor de fundo*/
+    color: #fff;
+    /*Nova cor do botão ao passar o mouse*/
+    transition: 0.8s;
+    /*Tempo de transição da ação*/
+    cursor: pointer;
+    /*Mudar o cursor ao passar o mouse*/
+    border-color: #ffffff;
+    /*Cor da borda */
+
+}
+
+
+.sessao2 img {
+    /*Chamando a imagem para estilização*/
+    width: 380px;
+    /*Tamanho da imagem*/
+    height: auto;
+    /*Altura da imagem*/
+    margin-left: 15px;
+    /*Dando um respiro na esquerda*/
+    align-items: center;
+    /*Centralizando o texto*/
+    font-size: 15px;
+    /*Tamanho do texto*/
+}
+
+
+.sessao3 {
+    /*Chamando nossa terceira sessão para estilização*/
+    padding: 180px;
+    /*Tamanho da sessão*/
+    background-color: rgb(226, 233, 233);
+    /*Dando uma cor de fundo*/
+}
+
+.sessao3 h2 {
+    /*Chamando nosso segundo título*/
+    color: rgb(32, 32, 85);
+    /*dando cor pro título*/
+    display: flex;
+    /*tornando flex (deixando os itens na vertical)*/
+    justify-content: center;
+    /*justificação do conteúdo*/
+    align-items: center;
+    /*Alinhando os itens ao centro*/
+    font-size: 40px;
+    /*Tamanho do texto*/
+}
+
+.sessao3 p {
+    /*Chamando o parágrafo da terceira sessão para estilização*/
+    font-size: 20px;
+    /*Tamanho do texto*/
+    margin-top: 25px;
+    /*Dando um respiro no topo do parágrafo*/
+    color: rgba(0, 0, 0, 0.564);
+    /*Cor do parágrafo*/
+}
+
+
+.sessao3 a button {
+    /*Estilizando a caixa do botão*/
+    width: 250px;
+    /*Largura do botão*/
+    height: 45px;
+    /*Altura do botão*/
+    border-radius: 50px;
+    /*Arredondando o botão*/
+    margin-top: 40px;
+    /*Dando um respiro no topo do botão*/
+    margin-left: 40px;
+    /*Dando um respiro na esquerda do botão*/
+    display: flex;
+    /*tornando flex (deixando os itens na vertical)*/
+    align-items: center;
+    /*Alinhando os itens ao centro*/
+    border-color: rgb(1, 42, 175);
+    /*Cor da borda */
+
+}
+
+
+.sessao3 a button:hover {
+    /*Hover - utilizamos para que algo mude ao passsarmos o mouse*/
+    background-color: rgb(1, 42, 175);
+    /*Dando uma cor de fundo*/
+    transition: 0.8s;
+    /*Tempo de transição da ação*/
+    cursor: pointer;
+    /*Mudar o cursor ao passar o mouse*/
+    border-color: #fff;
+    /*Cor da borda */
+}
+
+
+.sessao3 button {
+    /*Chamando o conteúdo do botão para estilização*/
+    color: rgb(1, 42, 175);
+    /*Cor do botão*/
+    display: flex;
+    /*tornando flex (deixando os itens na vertical)*/
+    justify-content: center;
+    /*justificação do conteúdo*/
+    align-items: center;
+    /*Alinhando os itens ao centro*/
+    font-size: 12px;
+    /*Tamanho do texto*/
+}
+
+.sessao3 button:hover {
+    /*Hover - utilizamos para que algo mude ao passsarmos o mouse*/
+    color: #fff;
+    /*Cor nova do botão ao passar o mouse*/
+}
+
+
+hr {
+    /*Chamando nossa linha para estilização*/
+    width: 600px;
+    /*Tamanho da linha*/
+    margin-top: 50px;
+    /*Dando um respiro no topo da linha*/
+    display: flex;
+    /*tornando flex (deixando os itens na vertical)*/
+    margin-left: 20%;
+    /*Dando um respiro na esquerda da linha*/
+    margin-bottom: 30px;
+    /*Dando um respiro na parte de baixo da linha*/
+}
+
+
+.sessao3 img {
+    /*Chamando a imagem da terceira sessão para estilização*/
+    margin-left: 20%;
+    /*Dando um respiro na esquerda*/
+}
+
+
+
+.sessao4 {
+    /*Chamando nossa quarta sessão para estilização*/
+    padding: 190px;
+    background: linear-gradient(180deg, #0c16a364 8.3%, rgba(5, 39, 101, 0.745) 100%), url(imagens/img\ cofre\ fundo.jpg);
+    /*Filtro Gradiant e imagem de fundo */
+    /*Tamanho da sessão*/
+    background-repeat: no-repeat;
+    /*Para a imagem não repetir*/
+    background-attachment: fixed;
+    /*Efeito para deixar a imagem estática*/
+    background-position: center;
+    /*Posicionando a imagem no centro*/
+    display: flex;
+    /*tornando flex (deixando os itens na vertical)*/
+    justify-content: space-evenly;
+    text-align: center;
+    /*Centralizando o texto*/
+    align-items: center;
+    /*Alinhando itens ao centro*/
+}
+
+
+.textos-sessao4 {
+    /*Chamando a div para estilização*/
+    margin-bottom: 120px;
+    /*Dando um respiro na parte de baixo do elemento*/
+    margin-left: 20px;
+    /*Dando um respiro na esquerda do item*/
+}
+
+
+.sessao4 img {
+    /*Chamando nossa imagem da sessaõ 4 para a estilização*/
+    width: 350px;
+    /*Tamanho da imagem*/
+    margin-right: 90px;
+    /*Dando um respiro na direita*/
+    align-items: center;
+    /*Alinhando itens ao centro*/
+}
+
+
+.textos-sessao4 h3 {
+    /*Chamando nosso terceiro título*/
+    color: #ffffff;
+    font-size: 35px;
+    /*Tamanho do texto*/
+    text-align: center;
+    /*Alinhando o texto ao centro*/
+    margin-bottom: 25px;
+    /*Dando um respiro na parte de baixo do elemento*/
+
+}
+
+
+.textos-sessao4 span {
+    /*Chamando o span para a estilização*/
+    color: yellow;
+    /*Cor do span*/
+    font-weight: 600;
+    /*Peso da fonte*/
+}
+
+
+.textos-sessao4 p {
+    /*Chamando o nosso parágrafo*/
+    color: #ffffff;
+    /*Cor do parágrafo*/
+
+    /*Dando um respiro no topo do parágrafo*/
+    font-size: 20px;
+    /*Tamanho do texto*/
+}
+
+
+footer {
+    /*Chamando o rodapé para estilização*/
+    padding: 60px;
+    /*Tamanho do rodapé*/
+    background-color: rgb(24, 23, 23);
+    /*Dando uma cor de fundo*/
+    align-items: center;
+    /*Alinhando os itens ao centro*/
+    text-align: center;
+}
+
+
+footer li {
+    /*Chamando nossa LI para estilização (Conteúdo da lista)*/
+    color: #fff;
+    /*Cor do conteúdo do texto*/
+}
+
+footer li:hover {
+    /*Hover - utilizamos para que algo mude ao passsarmos o mouse*/
+    color: red;
+    /*Cor nova do conteúdo da lista ao passar o mouse*/
+    transition: 0.8s;
+    /*Tempo de transição da ação*/
+}
+
+
+footer p {
+    /*Chamando o parágrafo para estilização*/
+    color: grey;
+    /*dando uma cor para o parágrafo*/
+    font-size: 16px;
+    /*Tamanho do texto*/
+    text-align: center;
+    /*alinhando o texto ao centro*/
+}
+
+footer .texto {
+    /*Class com os textos do rodapé - chamando para estilização*/
+    display: flex;
+    /*tornando flex (deixando os itens na vertical)*/
+    align-items: center;
+    /*Alinhando os itens ao centro*/
+    justify-content: space-between;
+    /*justificação do conteúdo*/
+    font-size: 16px;
+}
+
+
+footer div {
+    /* Div guardando a imagem - Estilizando*/
+    display: flex;
+    /*tornando flex (deixando os itens na vertical)*/
+    justify-content: center;
+    /*justificação do conteúdo*/
+    margin: 50px;
+}
+
+footer div img {
+    /* Chamando a imagem para estilização*/
+    width: 300px;
+    /*Tamanho da imagem*/
+}
