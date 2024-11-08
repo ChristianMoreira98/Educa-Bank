@@ -211,12 +211,14 @@ header {
 }
 
 
-
-.section-03 a{
-display: flex;
-    align-itens: center;
+.content-a-line{
+    display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
 }
+
 
 
 .section-03 a button {
@@ -235,10 +237,17 @@ display: flex;
     /*Tamanho da letra*/
     margin-top: 40px;
     /*Margin superior*/
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     /*Margin inferior*/
-     cursor:pointer
+     cursor:pointer;
     /* Muda o cursor ao passar em cima do butão */
+}
+
+
+.section-03 a button:hover{
+    background-color: rgb(50, 50, 226);
+    transition: 0.8s;
+    color: #fff;
 }
 
 .line {
@@ -249,7 +258,7 @@ display: flex;
     /*Espaçamento de 40px top e Bottom e esqueda e direita automáticas*/
     display: flex;
     justify-content: center;
-    align-itens: center;
+   align-items: center;
     text-align: center;
 /* Alinhamento da linha ao centro */
 }
@@ -258,7 +267,7 @@ display: flex;
     /*Estilização da Imagem*/
     display: flex;
     justify-content: center;
-    align-itens: center;
+  align-items: center;
     text-align: center;
 /*  Alinhamento da imagem ao centro */
 
@@ -361,7 +370,9 @@ footer {
         text-align: center;
     }
 
-
+    .section-01 button{
+        margin-top: 0.5rem;
+    }
 
     .section-02{
         padding: 12rem;
@@ -425,5 +436,11 @@ display: none;
         display:flex;
         flex-direction: column;
 justify-content: center;
+    }
+
+
+
+    .div-privacidade a{
+        margin-top: 1rem;
     }
 }
