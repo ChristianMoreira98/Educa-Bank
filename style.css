@@ -251,14 +251,16 @@ display: flex;
     justify-content: center;
     align-itens: center;
     text-align: center;
+/* Alinhamento da linha ao centro */
 }
 
 .section-03 img {
     /*Estilização da Imagem*/
-    margin-left: 200px;
-    /*Espaçamento a esquerda*/
-
-    /*IREMOS ALTERAR A FORMATAÇÃO DE ALINHAMENTO*/
+    display: flex;
+    justify-content: center;
+    align-itens: center;
+    text-align: center;
+/*  Alinhamento da imagem ao centro */
 
 }
 
