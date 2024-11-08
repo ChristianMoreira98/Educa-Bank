@@ -35,7 +35,7 @@ header {
     /*Retirando a decoração de texto (sublinhado)*/
     color: white;
     /*Cor da letra do Header*/
-    margin-left: 20px;
+    gap: 2rem;
     /*Espaçamento entre as Listas/Âncoras*/
 }
 
