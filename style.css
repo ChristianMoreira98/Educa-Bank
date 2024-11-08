@@ -94,6 +94,8 @@ header {
     /*Arredondamento da Borda*/
     border-color: rgb(19, 138, 43);
     /*Cor da Borda*/
+     cursor:pointer
+    /* Muda o cursor ao passar em cima do butão */
 }
 
 .section-01 a button:hover {
@@ -147,6 +149,8 @@ header {
     /*Arredondamento da Borda*/
     border-color: rgb(19, 138, 43);
     /*Cor da Borda*/
+     cursor:pointer
+    /* Muda o cursor ao passar em cima do butão */
 }
 
 .div1 a button:hover {
@@ -224,6 +228,8 @@ header {
     /*Margin superior*/
     margin-bottom: 40px;
     /*Margin inferior*/
+     cursor:pointer
+    /* Muda o cursor ao passar em cima do butão */
 }
 
 .line {
