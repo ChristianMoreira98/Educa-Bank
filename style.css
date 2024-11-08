@@ -247,6 +247,10 @@ display: flex;
     /*Largura da Linha*/
     margin: 40px auto;
     /*Espaçamento de 40px top e Bottom e esqueda e direita automáticas*/
+    display: flex;
+    justify-content: center;
+    align-itens: center;
+    text-align: center;
 }
 
 .section-03 img {
