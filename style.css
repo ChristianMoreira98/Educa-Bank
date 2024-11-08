@@ -202,8 +202,8 @@ header {
     /*Margem superior*/
     color: rgba(0, 0, 0, 0.564);
     /*Cor da letra*/
-    text-align: justify;
-    /*Aqui justificamos o texto*/
+    text-align: center;
+    /*Alihando texto ao centro*/
 }
 
 .section-03 a button {
