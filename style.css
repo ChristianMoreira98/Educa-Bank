@@ -27,6 +27,8 @@ header {
     /*Colocando as LI lado a lado*/
     justify-content: end;
     /*Justificando o conteúdo para o fim(posicionamento) do header */
+  gap: 2rem;
+    /*Espaçamento entre as Listas/Âncoras*/
 }
 
 .ul-naoOrdenada li a {
@@ -35,8 +37,6 @@ header {
     /*Retirando a decoração de texto (sublinhado)*/
     color: white;
     /*Cor da letra do Header*/
-    gap: 2rem;
-    /*Espaçamento entre as Listas/Âncoras*/
 }
 
 .ul-naoOrdenada li a:hover {
