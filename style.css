@@ -400,6 +400,8 @@ display: none;
 
 
     .div-privacidade{
-        gap: 30px;
+        display:flex;
+        flex-direction: column;
+justify-content: center;
     }
 }
