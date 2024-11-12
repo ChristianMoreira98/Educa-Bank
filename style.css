@@ -304,6 +304,9 @@ header {
     color: white; /*Cor da letra*/
     font-size: 20px; /*Tamanho da letra*/
     text-align: center;
+/* Centralizando o texto */
+    margin-left: 2.5rem; 
+/*Dando espaçamento na esquerda */
 }
 
 .div-cofre span { /* Estilizando o Span*/
