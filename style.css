@@ -295,7 +295,7 @@ header {
     color: white; /*Cor da letra*/
     text-align: center; /*Alinhando o texto ao centro*/
     font-size: 35px; /*Tamanho da letra*/
-    margin-left: 2.5rem; 
+    margin-left: 3rem; 
 /* Espaçamento na esquerda */
     margin-bottom: 30px; /*Espaçamento inferior*/
 }
@@ -305,7 +305,7 @@ header {
     font-size: 20px; /*Tamanho da letra*/
     text-align: center;
 /* Centralizando o texto */
-    margin-left: 2.5rem; 
+    margin-left: 3rem; 
 /*Dando espaçamento na esquerda */
 }
 
