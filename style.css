@@ -295,6 +295,8 @@ header {
     color: white; /*Cor da letra*/
     text-align: center; /*Alinhando o texto ao centro*/
     font-size: 35px; /*Tamanho da letra*/
+    margin-left: 2.5rem; 
+/* Espaçamento na esquerda */
     margin-bottom: 30px; /*Espaçamento inferior*/
 }
 
