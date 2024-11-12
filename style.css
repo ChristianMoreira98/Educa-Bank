@@ -286,7 +286,6 @@ header {
     /*Tamanho da imagem = Total*/
     background-position: center;
     /*Posicionamento da imagem*/
-
     display: flex; /*Tornando nossa sessão Flex*/
     justify-content: space-evenly; /*Justificativa do conteúdo - Horizontal*/
     align-items: center; /*Alinhamento na vertical*/
@@ -296,14 +295,12 @@ header {
     color: white; /*Cor da letra*/
     text-align: center; /*Alinhando o texto ao centro*/
     font-size: 35px; /*Tamanho da letra*/
-    margin-left: 50px; /*Espaçamento lateral*/
     margin-bottom: 30px; /*Espaçamento inferior*/
 }
 
 .div-cofre p { /*Estilizando o parágrafo*/
     color: white; /*Cor da letra*/
     font-size: 20px; /*Tamanho da letra*/
-    margin-left: 50px; /*Margin da esquerda*/
     text-align: center;
 }
 
